@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--~~~~~~~~~~~~~~~ Favicon ~~~~~~~~~~~~~~~-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+     <!--~~~~~~~~~~~~~~~ Font Awesome ~~~~~~~~~~~~~~~-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+      <!--~~~~~~~~~~~~~~~ Remix Icon ~~~~~~~~~~~~~~~-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+   <!--  Swiper's CSS -->
+   <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+     
+    <title>Furni</title>
+    <link rel="stylesheet" crossorigin href="dist/assets/index-CkmLAGdC.css">
+</head>
+<body>
+    <!------------------------ header ----------------------->
+    <header class="bg-greenColor top-0 left-0 w-full  z-50 py-3 block" id="header">
+        <nav class="container  relative h-14 flex justify-between items-center">
+            <div class="z-10 ">
+                <a href="#" class="text-3xl  font-inter font-bold block text-white">
+                    Furni.
+            </a>
+        </div>
+        <div id="nav_menu" class="bg-greenColor hidden  absolute top-0 left-0 pl-4 w-full py-14 md:block md:static md:py-0 md:w-auto md:ml-auto">
+            <ul class="flex flex-col left-0  gap-5 lg:gap-8 md:flex-row ">
+                <li class="md:hover:border-b-4 border-yellowcolor ease-in duration-100"><a href="/index.html" class="text-gray-400 hover:text-white ease-in duration-100 font-inter ">Home</a></li>
+                <li class="md:hover:border-b-4 border-yellowcolor ease-in duration-100"><a href="/shop.html" class="text-gray-400 hover:text-white ease-in duration-100 font-inter ">Shop</a></li>
+                <li class="md:hover:border-b-4 border-yellowcolor ease-in duration-100"><a href="/about.html" class="text-gray-400 hover:text-white ease-in duration-100 font-inter ">About us</a></li>
+                <li class="md:hover:border-b-4 border-yellowcolor ease-in duration-100"><a href="/services.html" class="text-gray-400 hover:text-white ease-in duration-100 font-inter ">Services</a></li>
+                <li class="md:hover:border-b-4 border-yellowcolor ease-in duration-100"><a href="/blog.html" class="text-gray-400 hover:text-white ease-in duration-100 font-inter ">Blog</a></li>
+                <li class="md:hover:border-b-4 border-yellowcolor ease-in duration-100"><a href="/contact.html" class="text-gray-400 hover:text-white ease-in duration-100 font-inter ">Contact us</a></li>
+                <div class=" text-2xl text-white cursor-pointer flex items-center gap-3">
+                    <i class="ri-account-circle-line"></i>
+                    <a href="/cart.html"><i class="ri-shopping-cart-line px-3"></i></a>
+                </div>
+            </ul>
+            
+            <div id="nav_close" class="absolute top-[0.2rem] right-4 text-2xl cursor-pointer md:hidden">  <i class="ri-close-line"></i> </div>
+            
+        </div>
+        
+        
+        <div class="md:hidden" id="hamburger">
+            <i class="ri-menu-2-line cursor-pointer text-xl"></i>
+          </div>
+        </div>
+        </nav>
+    </header>
+
+    <!--~~~~~~~~~~~~~~~ Home ~~~~~~~~~~~~~~~-->
+ <section id="home" class="bg-greenColor ">
+    <div class="container flex flex-col pb-16 md:pb-8   md:flex-row">
+        <div class="">
+        <h1 class="font-bold text-2xl md:text-4xl md:my-24">Checkout</h1>
+    </div>
+    </div> 
+ </section>
+
+  <!--~~~~~~~~~~~~~~~ Returning customer? ~~~~~~~~~~~~~~~-->
+
+  <section class="bg-gray-100 py-20 ">
+    <div class="container">
+      <div class="text-gray-500  text-xs border border-gray-300 rounded-lg py-8  p-4">
+        <p>Returning customer? <a href="#" class="text-black text-sm border-black border-b hover:border-none">Click here</a> to login</p>
+      </div>
+    </div>
+  </section>
+
+  <!--~~~~~~~~~~~~~~~ form section ~~~~~~~~~~~~~~~-->
+
+  <section class="bg-gray-100  pb-44">
+    <div class="container grid grid-cols md:grid-cols-2 md:gap-6">
+      <div class="">
+      <h2 class="heading2">Billing Details</h2>
+        <form action="#" class="bg-white mt-5 px-5 py-8">
+          <div class="text-black w-full  remove_arrow">
+            <label for="Country">Country<span class="text-red-600"> *</span></label>
+            <input type="text" name="" id="">
+            <select name="Country" id="Country" class=" border border-black w-full rounded-lg py-3 pl-3 mt-1">
+              <option value="Bnagladesh">Bnagladesh</option>
+              <option value="India">India</option>
+              <option value="Japan">Japan</option>
+              <option value="Pakistan">Pakistan</option>
+              <option value="USA">USA</option>
+              <option value="Afghanistan">Afghanistan</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Brazil">Brazil</option>
+            </select>
+          </div>
+          <div class="flex flex-col md:flex-row md:gap-5">
+            <div class="text-black w-full mt-2">
+              <label for="Country">First Name<span class="text-red-600"> *</span></label>
+              <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+            </div>
+            <div class="text-black w-full mt-2">
+              <label for="Country">Last Name<span class="text-red-600"> *</span></label>
+              <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+            </div>
+          </div>
+          <div class="text-black w-full mt-2">
+            <label for="Country">Company Name</label>
+            <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+          </div>
+          <div class="text-black w-full mt-2">
+            <label for="Country">Address<span class="text-red-600"> *</span></label>
+            <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1" placeholder="Street address">
+          </div>
+          <div class="text-black w-full mt-2">
+            <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1" placeholder="Apartment, suite, unit etc. (optional)">
+          </div>
+          <div class="flex flex-col md:flex-row md:gap-5">
+            <div class="text-black w-full mt-2">
+              <label for="Country">State / Country<span class="text-red-600"> *</span></label>
+              <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+            </div>
+            <div class="text-black w-full mt-2">
+              <label for="Country">
+                Posta / Zip <span class="text-red-600"> *</span></label>
+              <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+            </div>
+          </div>
+          <div class="flex flex-col md:flex-row md:gap-5">
+            <div class="text-black w-full mt-2">
+              <label for="Country">Email Address<span class="text-red-600"> *</span></label>
+              <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+            </div>
+            <div class="text-black w-full mt-2">
+              <label for="Country">Phone<span class="text-red-600"> *</span></label>
+              <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+            </div>
+          </div>
+          <div class="text-black mt-2">
+            <label for="Create_an_account" id="">
+            <input type="checkbox" name="Create_an_account" id="Create_an_account_show" class="mr-2 cursor-pointer">Create an account?
+          </label>
+          <div id="Create_an_account" class="hidden">
+            <p>Create an account by entering the information below. If you are a returning customer please login at the top of the page.</p>
+            <div class="text-black w-full mt-2">
+            <label for="">Account Password</label>
+            <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+          </div>
+          </div>
+          </div>
+          <div class="text-black mt-2">
+            <label for=""  id="">
+            <input type="checkbox" name="Create_an_account" id="different_address_show" class="mr-2 cursor-pointer">Ship To A Different Address?
+          </label>
+          <div id="different_address" class="hidden">
+          <div class="text-black w-full" >
+            <label for="Country">Country<span class="text-red-600"> *</span></label>
+            <select name="Country" id="Country" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+              <option value="Bnagladesh">Bnagladesh</option>
+              <option value="India">India</option>
+              <option value="Japan">Japan</option>
+              <option value="Pakistan">Pakistan</option>
+              <option value="USA">USA</option>
+              <option value="Afghanistan">Afghanistan</option>
+              <option value="Argentina">Argentina</option>
+              <option value="Brazil">Brazil</option>
+            </select>
+          </div>
+          <div class="flex flex-col md:flex-row md:gap-5">
+            <div class="text-black w-full mt-2">
+              <label for="Country">First Name<span class="text-red-600"> *</span></label>
+              <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+            </div>
+            <div class="text-black w-full mt-2">
+              <label for="Country">Last Name<span class="text-red-600"> *</span></label>
+              <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+            </div>
+          </div>
+          <div class="text-black w-full mt-2">
+            <label for="Country">Company Name</label>
+            <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+          </div>
+          <div class="text-black w-full mt-2">
+            <label for="Country">Address<span class="text-red-600"> *</span></label>
+            <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1" placeholder="Street address">
+          </div>
+          <div class="text-black w-full mt-2">
+            <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1" placeholder="Apartment, suite, unit etc. (optional)">
+          </div>
+          <div class="flex flex-col md:flex-row md:gap-5">
+            <div class="text-black w-full mt-2">
+              <label for="Country">State / Country<span class="text-red-600"> *</span></label>
+              <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+            </div>
+            <div class="text-black w-full mt-2">
+              <label for="Country">
+                Posta / Zip <span class="text-red-600"> *</span></label>
+              <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+            </div>
+          </div>
+          <div class="flex flex-col md:flex-row md:gap-5">
+            <div class="text-black w-full mt-2">
+              <label for="Country">Email Address<span class="text-red-600"> *</span></label>
+              <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+            </div>
+            <div class="text-black w-full mt-2">
+              <label for="Country">Phone<span class="text-red-600"> *</span></label>
+              <input type="text" name="fname" id="" class="border border-black w-full rounded-lg py-3 pl-3 mt-1">
+            </div>
+          </div>
+        </div>
+        </div>
+        <div class="text-black text-sm mt-2">
+          <label for="text_area">Order Notes</label><br>
+          <textarea name="Order_Notes" id="" rows="7" class="border border-black rounded-lg resize-none w-full mt-2 p-2" placeholder="Write your noter here...."></textarea>
+        </div>
+        </form>
+      </div>
+
+
+
+
+
+
+  <!--~~~~~~~~~~~~~~~ form section right side ~~~~~~~~~~~~~~~-->
+
+      <div class="mt-10 md:mt-0">
+        <div>
+        <h2 class="heading2">Coupon Code</h2>
+        <div class="bg-white mt-5 px-5 py-6 md:px-10 md:py-12">
+        <p class="text-black text-sm">Enter your coupon code if you have one</p>
+        <input type="text" name="" id="" class="border border-gray-300 rounded-xl py-3 pl-3 mt-1" placeholder="Coupon Code">
+        <a href="#" class="bg-black hover:bg-opacity-75  p-3 px-6 rounded-full text-white font-semibold">Apply</a>
+        </div>
+       </div>
+       <div class="mt-10">
+        <h2 class="heading2">Your Order</h2>
+        <div class="bg-white mt-5 px-5 py-6 md:px-10 md:py-12">
+        <div>
+          <div class="border-b-2 pb-2 border-black grid grid-cols-2 ">
+            <div class="text-black mx-2 font-semibold"><p>Product</p></div>
+            <div class="text-black mx-2 font-semibold  pl-16"><p>Total</p></div>
+          </div>
+          <div class="border-b-2 pb-2  grid grid-cols-2 items-center mt-3">
+            <div class="text-black mx-2 text-xs"><p>Top Up T-Shirt <span class="text-black font-semibold"> x </span> 1</p></div>
+            <div class="text-black mx-2  pl-16 text-xs"><p>	$250.00</p></div>
+          </div>
+          <div class="border-b-2 pb-2  grid grid-cols-2 items-center mt-3">
+            <div class="text-black mx-2 text-xs"><p>Polo Shirt <span class="text-black font-semibold"> x </span> 1</p></div>
+            <div class="text-black mx-2  pl-16 text-xs"><p>$100.00</p></div>
+          </div>
+          <div class="border-b-2 pb-2  grid grid-cols-2 items-center mt-3">
+            <div class="text-black mx-2 text-xs font-bold"><p>Cart Subtotal</p></div>
+            <div class="text-black mx-2  pl-16 text-xs"><p>	$350.00</p></div>
+          </div>
+          <div class="border-b-2 pb-2  grid grid-cols-2 items-center mt-3">
+            <div class="text-black mx-2 text-xs font-bold"><p>Order Total</p></div>
+            <div class="text-black mx-2  pl-16 text-xs font-bold"><p>	$350.00</p></div>
+          </div>
+        </div>
+        <div class="mt-14">
+          <div class="border border-gray-500 p-4 rounded-s">
+          <h4 class="border-b border-black hover:border-none text-gray-900 text-sm inline-block font-semibold" id="direct_bank_show">Direct Bank Transfer</h4>
+          <p class="paragraph hidden" id="direct_bank">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+        </div>
+        </div>
+        <div class="mt-4">
+          <div class="border border-gray-500 p-4 rounded-s">
+          <h4 class="border-b border-black hover:border-none text-gray-900 text-sm inline-block font-semibold" id="cheque_payment_show">Cheque Payment</h4>
+          <p class="paragraph hidden" id="cheque_payment">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+        </div>
+        </div>
+        <div class="mt-4">
+          <div class="border border-gray-500 p-4 rounded-s mb-12">
+          <h4 class="border-b border-black hover:border-none text-gray-900 text-sm inline-block font-semibold" id="paypal_show">Paypal</h4>
+          <p class="paragraph hidden" id="paypal">Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order won’t be shipped until the funds have cleared in our account.</p>
+        </div>
+        </div>
+        <a href="thank_you.html" class="bg-black hover:bg-opacity-75  p-4  px-6 rounded-full text-white font-semibold">Place Order</a>
+        </div>
+       </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Start Subscribe Section -->
+ <section>
+  <div class="container flex flex-col md:flex-row my-24 justify-between">
+    <div class="order-2 md:order-1">
+      <img src="img/envelope-outline.svg" alt="" class="float-left overflow-hidden mr-2">
+      <h3 class="text-gray-600 font-inter font-semibold text-lg " > Subscribe to Newsletter </h3>
+      <div class=" gap-4">
+      <input type="text" placeholder="Enter your name" class="border-gray-400 p-2 px-5 border-[1px] rounded-lg mt-5  text-black mr-2">
+      <input type="email" placeholder="Enter your email" class="border-gray-400 p-2 px-5 border-[1px] rounded-lg  text-black mt-3  md:px-">
+      <i class="fa fa-paper-plane text-black bg-[#3b5d50] w-20 h-12 text-2xl  rounded-xl p-2 my- text-center  mt-4 cursor-pointer hover:bg-opacity-90 mx-2 " aria-hidden="true"></i>
+    </div>
+    </div>
+    <div class=" float-right order-1 md:order-2 mx-auto -mb-5 -mr-2 -mt-44">
+      <img src="img/sofa.png" alt="" class=" w-80">
+    </div>
+  </div>
+ </section>
+
+ <!-- Start Footer Section -->
+  <footer id="footer">
+    <div class="container grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 justify-between  gap-5 mt-20 ">
+      <div class="">
+        <div class="text-green-800 text-2xl font-inter font-bold">
+          <a href="">Furni.</a>
+        </div>
+        
+        <p class="paragraph md:max-w-72">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant
+        </p>
+        <ul class=" text-black  flex flex-row gap-3">
+          <li class="text-l text-center "><a href="#"><span class="fa fa-brands fa-facebook-f bg-[#D5DBDB] w-8 rounded-full p-2 hover:bg-green-900 hover:text-white"></span></a></li>
+          <li class="text-l text-center"><a href="#"><span class="fa fa-brands fa-twitter bg-[#D5DBDB] w-8 rounded-full p-2 hover:bg-green-900 hover:text-white"></span></a></li>
+          <li class="text-l text-center"><a href="#"><span class="fa fa-brands fa-instagram bg-[#D5DBDB] w-8 rounded-full p-2 hover:bg-green-900 hover:text-white"></span></a></li>
+          <li class="text-l text-center"><a href="#"><span class="fa fa-brands fa-linkedin bg-[#D5DBDB] w-8 rounded-full p-2 hover:bg-green-900 hover:text-white"></span></a></li>
+        </ul>
+      </div>
+      
+      <div class="flex flex-row ">
+        <ul class="text-black text-xs ">
+          <li class="mt-12 hover:text-gray-500"><a href="#">About us</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Services</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Blog</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Contact us</a></li>
+        </ul>
+        <ul class="text-black text-xs mx-auto ">
+          <li class="mt-12 hover:text-gray-500"><a href="#">Support</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Knowledge base</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Live chat</a></li>
+        </ul>
+      </div>
+      <div class="flex flex-row ">
+        <ul class="text-black text-xs ">
+          <li class="mt-3 md:mt-12 hover:text-gray-500"><a href="#">Jobs</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Our team</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Leadership</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Privacy Policy</a></li>
+        </ul>
+        <ul class="text-black text-xs mx-auto">
+          <li class="mt-3 md:mt-12 hover:text-gray-500"><a href="#">Nordic Chair</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Kruzo Aero</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Ergonomic Chair</a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </footer>
+
+<!-- Start main Footer Section -->
+ <footer id="main_footer ">
+  <div class="container flex flex-col text-center md:text-justify md:flex-row justify-between mt-16 pt-10 pb-14 border-t-2 border-gray-100 ">
+    <div>
+      <p class="paragraph md:w-[65%] ">Copyright ©2024. All Rights Reserved. — Designed with love by Untree.co Distributed By ThemeWagon</p>
+    </div>
+    <div class="mx-auto md:mx-0 md:mt-5 md:w-[35%] lg:max-w-56">
+      <ul class="text-black text-xs flex  gap-5  ">
+        <li class="hover:text-gray-500 "><a href="#">Terms & Conditions</a></li>
+        <li class="hover:text-gray-500"><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </div>
+
+ </footer>
+
+
+
+
+
+
+
+
+<!--~~~~~~~~~~~~~~~ swiper .js ~~~~~~~~~~~~~~~-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        speed: 400,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 3000,
+          disabaleOnInteraction: false
+        },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true
+  },
+  grabCursor:true,
+});
+</script>
+
+
+<script src="/js/jquery-3.2.1.min.js"></script>
+    <!--~~~~~~~~~~~~~~~ Main.js ~~~~~~~~~~~~~~~-->
+    <script src="/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--~~~~~~~~~~~~~~~ Favicon ~~~~~~~~~~~~~~~-->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+     <!--~~~~~~~~~~~~~~~ Font Awesome ~~~~~~~~~~~~~~~-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+      <!--~~~~~~~~~~~~~~~ Remix Icon ~~~~~~~~~~~~~~~-->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+    />
+   <!--  Swiper's CSS -->
+   <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+     
+    <title>Furni</title>
+    <link rel="stylesheet" crossorigin href="dist/assets/index-CkmLAGdC.css">
+</head>
+<body>
+    <!------------------------ header ----------------------->
+    <header class="bg-greenColor top-0 left-0 w-full  z-50 py-3 block" id="header">
+        <nav class="container  relative h-14 flex justify-between items-center">
+            <div class="z-10 ">
+                <a href="#" class="text-3xl  font-inter font-bold block text-white">
+                    Furni.
+            </a>
+        </div>
+        <div id="nav_menu" class="bg-greenColor hidden  absolute top-0 left-0 pl-4 w-full py-14 md:block md:static md:py-0 md:w-auto md:ml-auto">
+            <ul class="flex flex-col left-0  gap-5 lg:gap-8 md:flex-row ">
+                <li class="md:hover:border-b-4 border-yellowcolor ease-in duration-100"><a href="/index.html" class="text-gray-400 hover:text-white ease-in duration-100 font-inter ">Home</a></li>
+                <li class="md:hover:border-b-4 border-yellowcolor ease-in duration-100"><a href="/shop.html" class="text-gray-400 hover:text-white ease-in duration-100 font-inter ">Shop</a></li>
+                <li class="md:hover:border-b-4 border-yellowcolor ease-in duration-100"><a href="/about.html" class="text-gray-400 hover:text-white ease-in duration-100 font-inter ">About us</a></li>
+                <li class="md:hover:border-b-4 border-yellowcolor ease-in duration-100"><a href="/services.html" class="text-gray-400 hover:text-white ease-in duration-100 font-inter ">Services</a></li>
+                <li class="md:hover:border-b-4 border-yellowcolor ease-in duration-100"><a href="/blog.html" class="text-gray-400 hover:text-white ease-in duration-100 font-inter ">Blog</a></li>
+                <li class="md:hover:border-b-4 border-yellowcolor ease-in duration-100"><a href="/contact.html" class="text-gray-400 hover:text-white ease-in duration-100 font-inter ">Contact us</a></li>
+                <div class=" text-2xl text-white cursor-pointer flex items-center gap-3">
+                    <i class="ri-account-circle-line"></i>
+                    <a href="/cart.html"><i class="ri-shopping-cart-line px-3"></i></a>
+                </div>
+            </ul>
+            
+            <div id="nav_close" class="absolute top-[0.2rem] right-4 text-2xl cursor-pointer md:hidden">  <i class="ri-close-line"></i> </div>
+            
+        </div>
+        
+        
+        <div class="md:hidden" id="hamburger">
+            <i class="ri-menu-2-line cursor-pointer text-xl"></i>
+          </div>
+        </div>
+        </nav>
+    </header>
+
+    <!--~~~~~~~~~~~~~~~ Home ~~~~~~~~~~~~~~~-->
+ <section id="home" class="bg-greenColor pt-8">
+    <div class="container flex flex-col  gap-10 md:flex-row">
+        <div class="">
+        <h1 class="font-bold text-2xl md:text-4xl md:my-10">Blog</h1>
+        <p class="text-xs li text-gray-400 py-7 md:py-0 leading-6">Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique.
+        </p>
+        <div class="md:py-8"> 
+        <a href="#" class="bg-yellow-400 hover:bg-yellow-500  p-3 px-6 rounded-full text-black font-semibold">Shop Now</a>
+        <a href="#" class="mx-2 border-2 border-gray-400 hover:border-white  p-3 px-6 rounded-full text-white font-semibold">Explore</a>
+    </div>
+    </div>
+        <div class="mx-auto bg-greenColor  w-full ">
+            <img src="img/couch.png" alt="">
+        </div>
+    </div> 
+ </section>
+
+
+
+<!-- Start Blog Section -->
+<section id="blog">
+  <div class="bg-gray-50 mt-12 pb-32">
+    <div class="container grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3   overflow-hidden justify-between gap-5 pt-7">
+      
+      <div class="my-7">
+        <div>
+          <img src="img/post-1.jpg" alt="" class="w-full rounded-3xl hover:opacity-75">
+          <h3 class="text-black font-semibold pl-3 mt-4"><a href="#">First Time Home Owner Ideas</a></h3>
+          <span class="text-gray-500 pl-3">by <a href="#" class="text-black font-semibold">Kristin Watson</a></span>
+          <span class="text-gray-500">on <a href="#" class="text-black font-semibold ">Dec 19, 2021</a></span>
+        </div>
+      </div>
+      <div class="my-7">
+        <div>
+          <img src="img/post-2.jpg" alt="" class="w-full rounded-3xl hover:opacity-75">
+          <h3 class="text-black font-semibold pl-3 mt-4"><a href="#">How To Keep Your Furniture Clean</a></h3>
+          <span class="text-gray-500 pl-3">by <a href="#" class="text-black font-semibold"> Robert Fox</a></span>
+          <span class="text-gray-500">on <a href="#" class="text-black font-semibold ">Dec 15, 2021</a></span>
+        </div>
+      </div>
+      <div class="my-7">
+        <div>
+          <img src="img/post-3.jpg" alt="" class="w-full rounded-3xl hover:opacity-75">
+          <h3 class="text-black font-semibold  pl-2 mt-4"><a href="#">Small Space Furniture Apartment Ideas</a></h3>
+          <span class="text-gray-500 pl-2">by <a href="#" class="text-black font-semibold">Kristin Watson</a></span>
+          <span class="text-gray-500">on <a href="#" class="text-black font-semibold ">Dec 12, 2021</a></span>
+        </div>
+      </div>
+      <div class="my-7">
+        <div>
+          <img src="img/post-1.jpg" alt="" class="w-full rounded-3xl hover:opacity-75">
+          <h3 class="text-black font-semibold pl-3 mt-4"><a href="#">First Time Home Owner Ideas</a></h3>
+          <span class="text-gray-500 pl-3">by <a href="#" class="text-black font-semibold">Kristin Watson</a></span>
+          <span class="text-gray-500">on <a href="#" class="text-black font-semibold ">Dec 19, 2021</a></span>
+        </div>
+      </div>
+      <div class="my-7">
+        <div>
+          <img src="img/post-2.jpg" alt="" class="w-full rounded-3xl hover:opacity-75">
+          <h3 class="text-black font-semibold pl-3 mt-4"><a href="#">How To Keep Your Furniture Clean</a></h3>
+          <span class="text-gray-500 pl-3">by <a href="#" class="text-black font-semibold"> Robert Fox</a></span>
+          <span class="text-gray-500">on <a href="#" class="text-black font-semibold ">Dec 15, 2021</a></span>
+        </div>
+      </div>
+      <div class="my-7">
+        <div>
+          <img src="img/post-3.jpg" alt="" class="w-full rounded-3xl hover:opacity-75">
+          <h3 class="text-black font-semibold  pl-2 mt-4"><a href="#">Small Space Furniture Apartment Ideas</a></h3>
+          <span class="text-gray-500 pl-2">by <a href="#" class="text-black font-semibold">Kristin Watson</a></span>
+          <span class="text-gray-500">on <a href="#" class="text-black font-semibold ">Dec 12, 2021</a></span>
+        </div>
+      </div>
+      <div class="my-7">
+        <div>
+          <img src="img/post-1.jpg" alt="" class="w-full rounded-3xl hover:opacity-75">
+          <h3 class="text-black font-semibold pl-3 mt-4"><a href="#">First Time Home Owner Ideas</a></h3>
+          <span class="text-gray-500 pl-3">by <a href="#" class="text-black font-semibold">Kristin Watson</a></span>
+          <span class="text-gray-500">on <a href="#" class="text-black font-semibold ">Dec 19, 2021</a></span>
+        </div>
+      </div>
+      <div class="my-7">
+        <div>
+          <img src="img/post-2.jpg" alt="" class="w-full rounded-3xl hover:opacity-75">
+          <h3 class="text-black font-semibold pl-3 mt-4"><a href="#">How To Keep Your Furniture Clean</a></h3>
+          <span class="text-gray-500 pl-3">by <a href="#" class="text-black font-semibold"> Robert Fox</a></span>
+          <span class="text-gray-500">on <a href="#" class="text-black font-semibold ">Dec 15, 2021</a></span>
+        </div>
+      </div>
+      <div class="my-7">
+        <div>
+          <img src="img/post-3.jpg" alt="" class="w-full rounded-3xl hover:opacity-75">
+          <h3 class="text-black font-semibold  pl-2 mt-4"><a href="#">Small Space Furniture Apartment Ideas</a></h3>
+          <span class="text-gray-500 pl-2">by <a href="#" class="text-black font-semibold">Kristin Watson</a></span>
+          <span class="text-gray-500">on <a href="#" class="text-black font-semibold ">Dec 12, 2021</a></span>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <!-- Start Blog Section second row-->
+ </section> 
+
+
+<!-- start Testimonial Slider -->
+ <section id="review" class="bg-primaryColorLight dark:bg-darkColorLight py-20">
+  <div class="customer__review container">
+    <div class="max-w-md mx-auto text-center">
+      <h2 class="text-black font-bold text-2xl">Testimonials</h2>
+      <div class="separator mx-auto md:mx-0"></div></div>
+  <div class="swiper py-10">
+    <ul class="swiper-wrapper">
+      <li class="swiper-slide">
+        <div class="flex flex-col gap-5  p-6">
+          <p class="paragraph  text-center md:mx-20 md:mr-20">“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”
+          </p>
+          <div class="flex flex-col text-center">
+            <img src="img/person-1.png" alt="review image" class="w-16 h-16 rounded-full mx-auto">
+            <div class="">
+              <p class="text-black font-semibold uppercase">Maria Jones</p>
+              <p class="paragraph">CEO, Co-Founder, XYZ Inc.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="swiper-slide">
+        <div class="flex flex-col gap-5  p-6">
+          <p class="paragraph  text-center md:mx-20 md:mr-20">“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”
+          </p>
+          <div class="flex flex-col text-center">
+            <img src="img/person-1.png" alt="review image" class="w-16 h-16 rounded-full mx-auto">
+            <div class="">
+              <p class="text-black font-semibold uppercase">Maria Jones</p>
+              <p class="paragraph">CEO, Co-Founder, XYZ Inc.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="swiper-slide">
+        <div class="flex flex-col gap-5  p-6">
+          <p class="paragraph  text-center md:mx-20 md:mr-20">“Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Integer convallis volutpat dui quis scelerisque.”
+          </p>
+          <div class="flex flex-col text-center">
+            <img src="img/person-1.png" alt="review image" class="w-16 h-16 rounded-full mx-auto">
+            <div class="">
+              <p class="text-black font-semibold uppercase">Maria Jones</p>
+              <p class="paragraph">CEO, Co-Founder, XYZ Inc.</p>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <div class="swiper-pagination"></div>
+  </div>
+ </section>
+		<!-- End Testimonial Slider -->
+
+		
+<!-- Start Subscribe Section -->
+ <section>
+  <div class="container flex flex-col md:flex-row my-24 justify-between ">
+    <div class="order-2 md:order-1">
+      <img src="img/envelope-outline.svg" alt="" class="float-left overflow-hidden mr-2">
+      <h3 class="text-gray-600 font-inter font-semibold text-lg " > Subscribe to Newsletter </h3>
+      <div class=" gap-4">
+      <input type="text" placeholder="Enter your name" class="border-gray-400 p-2 px-5 border-[1px] rounded-lg mt-5  text-black mr-2">
+      <input type="email" placeholder="Enter your email" class="border-gray-400 p-2 px-5 border-[1px] rounded-lg  text-black mt-3  md:px-">
+      <i class="fa fa-paper-plane text-black bg-[#3b5d50] w-20 h-12 text-2xl  rounded-xl p-2 my- text-center  mt-4 cursor-pointer hover:bg-opacity-90 mx-2 " aria-hidden="true"></i>
+    </div>
+    </div>
+    <div class=" float-right order-1 md:order-2 mx-auto -mb-5 -mr-2 -mt-44">
+      <img src="img/sofa.png" alt="" class=" w-80">
+    </div>
+  </div>
+ </section>
+
+ <!-- Start Footer Section -->
+  <footer id="footer">
+    <div class="container grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-3 justify-between  gap-5 mt-20 ">
+      <div class="">
+        <div class="text-green-800 text-2xl font-inter font-bold">
+          <a href="">Furni.</a>
+        </div>
+        
+        <p class="paragraph md:max-w-72">Donec facilisis quam ut purus rutrum lobortis. Donec vitae odio quis nisl dapibus malesuada. Nullam ac aliquet velit. Aliquam vulputate velit imperdiet dolor tempor tristique. Pellentesque habitant
+        </p>
+        <ul class=" text-black  flex flex-row gap-3">
+          <li class="text-l text-center "><a href="#"><span class="fa fa-brands fa-facebook-f bg-[#D5DBDB] w-8 rounded-full p-2 hover:bg-green-900 hover:text-white"></span></a></li>
+          <li class="text-l text-center"><a href="#"><span class="fa fa-brands fa-twitter bg-[#D5DBDB] w-8 rounded-full p-2 hover:bg-green-900 hover:text-white"></span></a></li>
+          <li class="text-l text-center"><a href="#"><span class="fa fa-brands fa-instagram bg-[#D5DBDB] w-8 rounded-full p-2 hover:bg-green-900 hover:text-white"></span></a></li>
+          <li class="text-l text-center"><a href="#"><span class="fa fa-brands fa-linkedin bg-[#D5DBDB] w-8 rounded-full p-2 hover:bg-green-900 hover:text-white"></span></a></li>
+        </ul>
+      </div>
+      
+      <div class="flex flex-row ">
+        <ul class="text-black text-xs ">
+          <li class="mt-12 hover:text-gray-500"><a href="#">About us</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Services</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Blog</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Contact us</a></li>
+        </ul>
+        <ul class="text-black text-xs mx-auto ">
+          <li class="mt-12 hover:text-gray-500"><a href="#">Support</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Knowledge base</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Live chat</a></li>
+        </ul>
+      </div>
+      <div class="flex flex-row ">
+        <ul class="text-black text-xs ">
+          <li class="mt-3 md:mt-12 hover:text-gray-500"><a href="#">Jobs</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Our team</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Leadership</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Privacy Policy</a></li>
+        </ul>
+        <ul class="text-black text-xs mx-auto">
+          <li class="mt-3 md:mt-12 hover:text-gray-500"><a href="#">Nordic Chair</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Kruzo Aero</a></li>
+          <li class="mt-5 hover:text-gray-500"><a href="#">Ergonomic Chair</a></li>
+        </ul>
+      </div>
+      
+    </div>
+  </footer>
+
+<!-- Start main Footer Section -->
+ <footer id="main_footer ">
+  <div class="container flex flex-col text-center md:text-justify md:flex-row justify-between mt-16 pt-10 pb-14 border-t-2 border-gray-100 ">
+    <div>
+      <p class="paragraph md:w-[65%] ">Copyright ©2024. All Rights Reserved. — Designed with love by Untree.co Distributed By ThemeWagon</p>
+    </div>
+    <div class="mx-auto md:mx-0 md:mt-5 md:w-[35%] lg:max-w-56">
+      <ul class="text-black text-xs flex  gap-5  ">
+        <li class="hover:text-gray-500 "><a href="#">Terms & Conditions</a></li>
+        <li class="hover:text-gray-500"><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </div>
+
+ </footer>
+
+
+
+
+
+
+
+
+<!--~~~~~~~~~~~~~~~ swiper .js ~~~~~~~~~~~~~~~-->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+    const swiper = new Swiper('.swiper', {
+        speed: 400,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 3000,
+          disabaleOnInteraction: false
+        },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable:true
+  },
+  grabCursor:true,
+});
+</script>
+
+
+
+    <!--~~~~~~~~~~~~~~~ Main.js ~~~~~~~~~~~~~~~-->
+    <script src="/js/main.js"></script>
+</body>
+</html>
